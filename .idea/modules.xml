@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Learn Java with Questions.iml" filepath="$PROJECT_DIR$/.idea/Learn Java with Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PracticeQs/PracticeQs.iml" filepath="$PROJECT_DIR$/PracticeQs/PracticeQs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayOne/arrayOne.iml" filepath="$PROJECT_DIR$/arrayOne/arrayOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binarySearch/binarySearch.iml" filepath="$PROJECT_DIR$/binarySearch/binarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayOne/largestNumber/largestNumber.iml" filepath="$PROJECT_DIR$/arrayOne/largestNumber/largestNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyramidNumber/pyramidNumber.iml" filepath="$PROJECT_DIR$/pyramidNumber/pyramidNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyramidNumberPattern/pyramidNumberPattern.iml" filepath="$PROJECT_DIR$/pyramidNumberPattern/pyramidNumberPattern.iml" />
+    </modules>
+  </component>
+</project>
