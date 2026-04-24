@@ -1,24 +1,20 @@
+import java.util.Scanner;
 public class linearSearch {
-    public static String linearSearch(String[] menuList, String findKey) {
-        for(int i = 0; i < menuList.length; i++){
-            if(menuList[i].equals(findKey)){
-                System.out.println(findKey + " is found at index: " + i);
-
+    public static String menuList(String[] foods, String findKey) {
+        for(int i = 0; i < foods.length; i++){
+            if(foods[i].equals(findKey)){
+                return findKey + " is found at index " + i + " in the menu list.";
             }
         }
-
-        return findKey;
+        return findKey + " is not Available in the menu list.";
     }
     public static void main(String[] args) {
-        String[] menuList = {"Burger", "Fries", "Coke", "Pizza", "Salad"};
-        String findKey = "puri";
-
-        String Index=linearSearch(menuList, findKey);
-        if(Index.equals(findKey)) {
-            System.out.println("Item found ");
-        } else {
-            System.out.println("Item not found");
-        }
-
+        String[] foods = {"Burger", "Fries", "Coke", "Pizza", "Salad"};
+        Scanner Sc =new Scanner(System.in);
+        System.out.print("Enter item to Search : ");
+        String findKey = Sc.nextLine();
+        String Result=menuList(foods, findKey);
+        System.out.println(Result);
+        Sc.close();
     }
 }

@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
-
 public class completeExample {
+    public static void main(String[] args){
+        byte b=42;
+        char c='a';
+        short s=1024;
+        int i=50000;
+        float f=5.67f;
+        double d=0.1234;
+        double result=(f*b)+ (char)(i/c)-(d*s);
+        System.out.println(result);
+    }
 }

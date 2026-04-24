@@ -7,6 +7,7 @@ public class Main {
         int[] moreNumbers = {11, 12, 13, 14, 15};
         String[] fruits = {"Apple", "Banana", "Cherry", "Date", "Elderberry"};
         Scanner scanner = new Scanner(System.in);
+
         for (int i = 0; i < marks.length; i++) {
             marks[i] = scanner.nextInt();
         }
