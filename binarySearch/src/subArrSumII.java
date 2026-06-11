@@ -1,6 +1,6 @@
 public class subArrSumII {
     public static void maxArrSumII(int[] numbers){
-        int currSum=0;
+        int currSum;
         int maxSum=Integer.MIN_VALUE;
         int[] prefix =new int [numbers.length];
         prefix[0] = numbers[0];
