@@ -1,10 +1,10 @@
-public class Student {
+class Student1 {
     //Instance Variable
     final int age;
     final String name;
     final int rollNo;
     //Constructor
-    public Student(){
+    public Student1(){
         age=22;
         name="A Sharma";
         rollNo=22;
@@ -19,7 +19,7 @@ public class Student {
         return name;
     }
     public static void main(String[] args){
-        Student obj = new Student();
+        Student1 obj = new Student1();
         System.out.println("Name: "+ obj.getAge() + "  Age is: "+obj.getName() + " Roll No is: "+obj.getRollNo());
     }
 }
