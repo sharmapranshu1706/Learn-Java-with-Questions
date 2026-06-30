@@ -10,7 +10,7 @@ class CastingByRefernce extends Casting{
         System.out.println("Child Class");
     }
     public static void main(String[] args){
-        Casting c1= (CastingByRefernce)new CastingByRefernce();
+        Casting c1= new CastingByRefernce();
         c1.setCheck();
 
         CastingByRefernce c2= (CastingByRefernce)c1;
