@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 
 public class nestedWhileLoop {
     public static void main(String[] args){
@@ -10,9 +9,9 @@ public class nestedWhileLoop {
             // the variable used in the outer loop otherwise we will get an infinite loop because the variable used in
             // the inner loop will be updated and, it will affect the variable used in the outer loop and, it will never
             // reach the condition to exit the loop
-            while(i<=4){
+            while(j<=4){
                 System.out.println("I");
-                i++;
+                j++;
             }
             i++;
         }

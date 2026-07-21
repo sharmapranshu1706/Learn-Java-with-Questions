@@ -1,8 +1,11 @@
 public class Questions {
+
+    //fields
     private int id;
     private String Questions;
     private String[] Ops=new String[4];
     private String Ans;
+
     // Constructor
     public Questions(int id, String questions, String[] ops, String ans) {
         this.id = id ;
