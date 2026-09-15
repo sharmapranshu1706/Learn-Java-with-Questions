@@ -33,8 +33,5 @@ class Child extends Parents{
         g.check();
         Parents p = new Parents();
         p.pass();
-
-
     }
-
 }

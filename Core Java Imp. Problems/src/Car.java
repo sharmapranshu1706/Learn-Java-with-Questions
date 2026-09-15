@@ -1,4 +1,5 @@
 class Vehicle {
+    //Instance Varibale
     String carName;
     String carColor;
     protected int carChasisNo;
