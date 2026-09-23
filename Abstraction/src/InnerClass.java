@@ -3,8 +3,10 @@ class Jack {
     void colorName(){
         System.out.println(jackColor);
     }
-    static class Oggy {
+    static class Oggy extends Jack {
+        @Override
         void colorName(){
+            super.colorName();
             System.out.println("Blue");
         }
     }
