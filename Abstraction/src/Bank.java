@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 abstract class Onlinebanking {
     abstract void internetBanking(String userID, String passWord);
