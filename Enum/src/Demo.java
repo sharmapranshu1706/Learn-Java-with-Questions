@@ -1,5 +1,6 @@
-import com.sun.net.httpserver.Authenticator;
-
-enum class Status {
-    Running, Failed, Pending, Authenticator.Success
+enum Days {
+    Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+}
+public class Demo{
+    Days d= Days.Friday;
 }
