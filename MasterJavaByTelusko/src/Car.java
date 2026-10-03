@@ -22,11 +22,12 @@ class Car extends Vehicle implements Electric, GPS{
         System.out.println("GPS Navigation Started");
     }
     public static void main(String[] args){
-        Car i = new Car();
+        Vehicle i = new Car();
+        Car c = new Car();
         i.start();
-        i.charge();
-        i.navigate();
-        i.stop();
+        c.charge();
+        c.navigate();
+        c.stop();
     }
 }
 
