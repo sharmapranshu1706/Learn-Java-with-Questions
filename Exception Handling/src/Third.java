@@ -13,7 +13,7 @@ public class Third {
         System.out.println("Class Loader");
     }
     public static void main(String[] args){
-        A obj = new A();
+        new A();
         try {
             throw new PranshuException("Error");
         }
