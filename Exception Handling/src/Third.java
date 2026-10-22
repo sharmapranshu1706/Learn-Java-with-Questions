@@ -1,8 +1,8 @@
-//class PranshuException extends Exception {
-//    public PranshuException(String string){
-//        super(string);
-//    }
-//}
+class PranshuException extends Exception {
+    public PranshuException(String string){
+        super(string);
+    }
+}
 class A{
     public void show() throws ClassNotFoundException{
         Class.forName("B");
@@ -15,9 +15,9 @@ public class Third {
     public static void main(String[] args){
         A obj = new A();
         try {
-            obj.show();
+            throw new PranshuException("Error");
         }
-        catch (ClassNotFoundException e){
+        catch (PranshuException e){
             e.printStackTrace();
         }
     }
