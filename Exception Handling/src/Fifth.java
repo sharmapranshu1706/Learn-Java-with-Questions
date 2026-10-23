@@ -4,8 +4,8 @@ import java.io.IOException;
 
 public class Fifth {
     public static void main(String[] args)  {
-        int num =0;
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))){
+            int num =0;
             num = Integer.parseInt(br.readLine());
             System.out.println(num);
         }
