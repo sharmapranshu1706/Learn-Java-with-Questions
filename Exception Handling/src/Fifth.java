@@ -4,6 +4,7 @@ import java.io.IOException;
 
 public class Fifth {
     public static void main(String[] args)  {
+        System.out.print("Enter a Number: ");
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))){
             int num ;
             num = Integer.parseInt(br.readLine());
