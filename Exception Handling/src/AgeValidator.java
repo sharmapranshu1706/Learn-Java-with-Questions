@@ -25,10 +25,10 @@ public class AgeValidator {
         catch (InvalidAgeException e){
             System.out.println("Exception caught: " + e.getMessage());
         } catch (NumberFormatException e) {
-            System.out.println("Please enter a Valid Number");;
+            System.out.println("Please enter a Valid Number");
         }
         catch (IOException e) {
-            System.out.println("Inpur error:" + e.getMessage());;
+            System.out.println("Inpur error:" + e.getMessage());
         }
 //        try {
 //            checkAge(21);
