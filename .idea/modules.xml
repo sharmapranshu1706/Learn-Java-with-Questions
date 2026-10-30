@@ -6,10 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/BankAccount/BankAccount.iml" />
       <module fileurl="file://$PROJECT_DIR$/Core Java Imp. Problems/Core Java Imp. Problems.iml" filepath="$PROJECT_DIR$/Core Java Imp. Problems/Core Java Imp. Problems.iml" />
       <module fileurl="file://$PROJECT_DIR$/Enum/Enum.iml" filepath="$PROJECT_DIR$/Enum/Enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception Handling/Exception Handling.iml" filepath="$PROJECT_DIR$/Exception Handling/Exception Handling.iml" />
       <module fileurl="file://$PROJECT_DIR$/IncomeTaxCalculator/IncomeTaxCalculator.iml" filepath="$PROJECT_DIR$/IncomeTaxCalculator/IncomeTaxCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Learn Java with Questions.iml" filepath="$PROJECT_DIR$/.idea/Learn Java with Questions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library Management System/Library Management System.iml" filepath="$PROJECT_DIR$/Library Management System/Library Management System.iml" />
       <module fileurl="file://$PROJECT_DIR$/Management/Management.iml" filepath="$PROJECT_DIR$/Management/Management.iml" />
       <module fileurl="file://$PROJECT_DIR$/MasterJavaByTelusko/MasterJavaByTelusko.iml" filepath="$PROJECT_DIR$/MasterJavaByTelusko/MasterJavaByTelusko.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pattern Problems/Pattern Problems.iml" filepath="$PROJECT_DIR$/Pattern Problems/Pattern Problems.iml" />
@@ -17,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/Quiz Qs/Quiz Qs.iml" filepath="$PROJECT_DIR$/Quiz Qs/Quiz Qs.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quiz-Console-App/Quiz-Console-App.iml" filepath="$PROJECT_DIR$/Quiz-Console-App/Quiz-Console-App.iml" />
       <module fileurl="file://$PROJECT_DIR$/Switch Statement/Switch Statement.iml" filepath="$PROJECT_DIR$/Switch Statement/Switch Statement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/Threads.iml" filepath="$PROJECT_DIR$/Threads/Threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/UP and Down Casting/UP and Down Casting.iml" filepath="$PROJECT_DIR$/UP and Down Casting/UP and Down Casting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wrapper Classes/Wrapper Classes.iml" filepath="$PROJECT_DIR$/Wrapper Classes/Wrapper Classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrayOne/arrayOne.iml" filepath="$PROJECT_DIR$/arrayOne/arrayOne.iml" />
