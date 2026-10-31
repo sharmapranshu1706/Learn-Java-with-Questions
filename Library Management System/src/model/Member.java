@@ -3,9 +3,9 @@ package model;
 public class Member {
     private static final int MAX_BOOKS = 3;
 
-    private int id;
-    private String name;
-    private int[] borrowedBookIds = new int[MAX_BOOKS];
+    private final int id;
+    private final String name;
+    private final int[] borrowedBookIds = new int[MAX_BOOKS];
     private int borrowedCount = 0;
 
     public Member(int id, String name) {

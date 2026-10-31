@@ -1,9 +1,9 @@
 package model;
 
 public class Book {
-    private int id;
-    private String title;
-    private String author;
+    private final int id;
+    private final String title;
+    private final String author;
     private BookStatus status;
     private int issuedToMemberId; // -1 matlab kisi ko issue nahi hui
 
