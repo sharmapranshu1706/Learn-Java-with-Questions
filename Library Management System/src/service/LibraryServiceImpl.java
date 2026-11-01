@@ -12,8 +12,8 @@ public class LibraryServiceImpl implements LibraryService {
     private static final int FINE_PER_DAY = 2;
 
     // Arrays heap pe banenge, reference variables stack pe
-    private Book[] books = new Book[CAPACITY];
-    private Member[] members = new Member[CAPACITY];
+    private final Book[] books = new Book[CAPACITY];
+    private final Member[] members = new Member[CAPACITY];
     private int bookCount = 0;
     private int memberCount = 0;
     private int nextBookId = 1;
