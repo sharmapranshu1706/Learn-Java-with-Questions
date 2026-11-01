@@ -8,8 +8,8 @@ import service.LibraryService;
 import service.LibraryServiceImpl;
 
 public class Main {
-    private static Scanner sc = new Scanner(System.in);
-    private static LibraryService library = new LibraryServiceImpl(); // interface reference
+    private static final Scanner sc = new Scanner(System.in);
+    private static final LibraryService library = new LibraryServiceImpl(); // interface reference
 
     public static void main(String[] args) {
         seedData();

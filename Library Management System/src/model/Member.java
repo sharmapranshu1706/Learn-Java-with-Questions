@@ -13,10 +13,22 @@ public class Member {
         this.name = name;
     }
 
-    public int getId() { return id; }
-    public String getName() { return name; }
-    public int getBorrowedCount() { return borrowedCount; }
-    public static int getMaxBooks() { return MAX_BOOKS; }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getBorrowedCount() {
+        return borrowedCount;
+    }
+
+    public static int getMaxBooks() {
+        return MAX_BOOKS;
+    }
 
     public boolean canBorrow() {
         return borrowedCount < MAX_BOOKS;
@@ -43,5 +55,18 @@ public class Member {
     @Override
     public String toString() {
         return String.format("%-4d %-20s Books borrowed: %d", id, name, borrowedCount);
+    }
+
+    public static void main(String[] args) {
+        Member member = new Member(1, "Rahul");
+
+        System.out.println(member.getName());          // Rahul
+        System.out.println(member.getBorrowedCount()); // 0
+
+        member.addBook(101);
+        System.out.println(member.getBorrowedCount()); // 1
+
+        member.removeBook(101);
+        System.out.println(member.getBorrowedCount()); // 0
     }
 }
