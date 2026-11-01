@@ -98,8 +98,8 @@ public class Main {
             return;
         }
         System.out.printf("%-4s %-28s %-20s %s%n", "ID", "Title", "Author", "Status");
-        for (int i = 0; i < all.length; i++) {
-            System.out.println(all[i]);
+        for (Book book : all) {
+            System.out.println(book);
         }
     }
 
@@ -109,8 +109,8 @@ public class Main {
             System.out.println("Koi member nahi hai.");
             return;
         }
-        for (int i = 0; i < all.length; i++) {
-            System.out.println(all[i]);
+        for (Member member : all) {
+            System.out.println(member);
         }
     }
 
@@ -121,8 +121,8 @@ public class Main {
             System.out.println("Koi match nahi mila.");
             return;
         }
-        for (int i = 0; i < results.length; i++) {
-            System.out.println(results[i]);
+        for (Book result : results) {
+            System.out.println(result);
         }
     }
 
